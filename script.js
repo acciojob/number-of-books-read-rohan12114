@@ -1,20 +1,21 @@
-const library = [
-  {
-    author: "Bill Gates",
-    title: "The Road Ahead",
-    readingStatus: true,
-  },
-  {
-    author: "Steve Jobs",
-    title: "Walter Isaacson",
-    readingStatus: true,
-  },
-  {
-    author: "Suzanne Collins",
-    title: "Mockingjay: The Final Book of The Hunger Games",
-    readingStatus: false,
-  },
-];
+function numberOfBooksRead(library){
+	count 0;
+}
+{
+	author:"bill gates";
+	title:"The road ahead";
+	readingStatus:"true";
+}
+{
+	author:"shivaji sawant";
+	title:"mrityunjay";
+	readingStatus:"false";
+}
+{
+	author:"jay shetty";
+	title:"The monk who sold his ferrari";
+	readingStatus:"true";
+}
 
 const numberOfBooksRead = () => {
   // write your code here
