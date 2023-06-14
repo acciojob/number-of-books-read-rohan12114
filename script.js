@@ -16,11 +16,11 @@ const library =[
 	title:"The monk who sold his ferrari",
 	readingStatus:"true",
 },
-]
-const numberOfBooksRead = () => 
+];
+const numberOfBooksRead = () => {
 	let count=0;
 for(let i=0 ; i<library.length;i++){
-	library[i].readingStatus&&count++;
+	library[i].readingStatus && count++;
 }
 return count;
   // write your code here
